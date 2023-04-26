@@ -32,6 +32,8 @@ h1, h2, h3 {
 h1 {
     margin-top: 15px;
     font-size: 36pt;
+    text-shadow: 1px 1px 1px #e6d4d4;
+    margin-bottom: 28px;
 }
 
 .light {
@@ -183,6 +185,7 @@ a {
 .home-text {
     position: absolute;
     width: 100%;
+    padding-top: 60px;
 }
 
 .home-img {
@@ -193,6 +196,14 @@ a {
 /* buttons for socials */
 .sidexside {
     padding-left: 35px;
+}
+
+.button { 
+    transition: all .2s ease-in-out; 
+}
+    
+.button:hover { 
+    transform: scale(1.12); 
 }
 
 /* The dropdown container 
