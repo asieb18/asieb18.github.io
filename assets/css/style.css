@@ -21,7 +21,7 @@ body {
 .content {
     padding-left: 14%;
     padding-right: 14%;
-    padding-top: 220px;
+    padding-top: 250px;
 }
 
 h1, h2, h3 {
@@ -47,7 +47,7 @@ h2 {
 
 /* Background bubble for subheaders */
 h3 span {
-    background-color: #716a6a;
+    background-color: #5a4e4e;
     border-radius: 20px;
     color: #F1EFEF;
     padding: 8px;
@@ -55,7 +55,20 @@ h3 span {
     padding-right: 18px;
     text-decoration: none;
     font-weight: lighter;
+    font-size: smaller;
 }
+
+#desc {
+    font-size: large;
+    margin: 0.1px;
+    padding-bottom: 5px;
+}
+
+/* underlines current navbar page 
+#curr-page {
+    border-bottom: 1px solid #534444;
+}
+*/
 
 /* Image text side by side */
 .container {
@@ -63,6 +76,15 @@ h3 span {
     align-items: center;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+}
+
+#sather {
+
+    border-radius: 200px;
+}
 /* home section */
 .home {
     padding-bottom: 150px;
@@ -119,6 +141,13 @@ a {
 }
 
 
+.proj-column {
+    flex: 10%;
+    max-width: 100%;
+    padding: 0 0;
+}
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -142,7 +171,29 @@ a {
     margin-bottom: 50px;
 }
 
+.intro-text p {
+    padding-left: 20px;
+}
 
+.home {
+    position: relative;
+    width: 460px;
+    height: 230px;
+}
+.home-text {
+    position: absolute;
+    width: 100%;
+}
+
+.home-img {
+    z-index:-1;
+    padding-left: 350px;
+}
+
+/* buttons for socials */
+.sidexside {
+    padding-left: 35px;
+}
 
 /* The dropdown container 
 .dropdown {
