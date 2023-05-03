@@ -36,6 +36,11 @@ h1 {
     margin-bottom: 28px;
 }
 
+.navbar #name {
+    font-size: larger;
+    font-weight: bold;
+}
+
 .light {
     font-weight:400;
     padding: 0;
@@ -167,6 +172,11 @@ a {
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .home-img {
+    padding-left: 40px;
+    }
+}
 
 /* SECTION PADDING */
 .contact {
