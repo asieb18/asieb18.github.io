@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20pt;
+    font-size: 24pt;
 }
 
 /* Background bubble for subheaders */
@@ -90,7 +90,6 @@ h3 span {
 }
 
 #sather {
-
     border-radius: 200px;
 }
 /* home section */
@@ -107,17 +106,22 @@ a {
 
 /* Links inside the navbar */
 .navbar a {
-    float: left;
     font-size: 12pt;
     color: #534444;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
+    display: inline-block;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.nav-left {
+    float:left;
 }
 
 .nav-right {
-    float: right;
+    float:right;
 }
 
 .row {
@@ -170,6 +174,9 @@ a {
     .skill-column {
     flex: 100%;
     max-width: 100%;
+    }
+    .proj-column {
+        flex: 100%;
     }
 }
 
