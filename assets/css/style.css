@@ -10,6 +10,7 @@ body {
 
 /*Navigation Bar*/
 .navbar {
+    font-family: 'Playfair Display';
     display: fixed;
     overflow: hidden;
     background-color: #F1EFEF;
@@ -20,9 +21,58 @@ body {
 
 /*Content*/
 .content {
-    padding-left: 14%;
-    padding-right: 14%;
-    padding-top: 250px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 150px;
+}
+
+
+/* SECTION PADDING */
+.contact {
+    margin-bottom: 50px;
+}
+
+.intro-text {
+    padding-left: 50px;
+}
+
+.intro-text p {
+    padding-left: 20px;
+}
+
+/* home section */
+
+.home {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width:85%;
+
+}
+
+.home-text {
+    position: absolute;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.home-img {
+    z-index:-1;
+    padding-left: 350px;
+}
+
+/* buttons for socials */
+.sidexside {
+    padding-left: 35px;
+}
+
+.button { 
+    transition: all .2s ease-in-out; 
+}
+    
+.button:hover { 
+    transform: scale(1.12); 
 }
 
 h1, h2, h3 {
@@ -37,12 +87,8 @@ h1 {
     margin-bottom: 28px;
 }
 
-.navbar #name {
-    font-size: larger;
-    font-family: 'Playfair Display';
-}
-
 .light {
+    font-size: 30pt;
     font-weight:400;
     padding: 0;
     margin: 0;
@@ -84,19 +130,6 @@ h3 span {
     align-items: center;
 }
 
-.home {
-    display: flex;
-    align-items: center;
-}
-
-#sather {
-    border-radius: 200px;
-}
-/* home section */
-.home {
-    padding-bottom: 150px;
-    padding-left: 40px;
-}
    
 /* all links */
 a {
@@ -106,7 +139,7 @@ a {
 
 /* Links inside the navbar */
 .navbar a {
-    font-size: 12pt;
+    font-size: 16pt;
     color: #534444;
     text-align: center;
     padding: 14px 16px;
@@ -118,6 +151,8 @@ a {
 
 .nav-left {
     float:left;
+    padding: 10px;
+    padding-left: 20px;
 }
 
 .nav-right {
@@ -141,7 +176,7 @@ a {
 .skill-row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 15px;
+    padding: 0 5px;
     justify-content: center;
 }
 
@@ -186,43 +221,6 @@ a {
     }
 }
 
-/* SECTION PADDING */
-.contact {
-    margin-bottom: 50px;
-}
-
-.intro-text p {
-    padding-left: 20px;
-}
-
-.home {
-    position: relative;
-    width: 460px;
-    height: 230px;
-}
-.home-text {
-    position: absolute;
-    width: 100%;
-    padding-top: 60px;
-}
-
-.home-img {
-    z-index:-1;
-    padding-left: 350px;
-}
-
-/* buttons for socials */
-.sidexside {
-    padding-left: 35px;
-}
-
-.button { 
-    transition: all .2s ease-in-out; 
-}
-    
-.button:hover { 
-    transform: scale(1.12); 
-}
 
 /* The dropdown container 
 .dropdown {
