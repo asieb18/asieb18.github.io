@@ -42,24 +42,23 @@ body {
 
 /* home section */
 
+/* Flexbox container for home section */
 .home {
     display: flex;
     align-items: center;
-    position: relative;
-    margin: auto;
-    width:85%;
-
+    justify-content: center;
+    flex-direction: row; /* Align items horizontally */
 }
 
+/* Style for text section */
 .home-text {
-    position: absolute;
-    width: 100%;
-    padding-top: 60px;
+    text-align: left;
 }
 
-.home-img {
-    z-index:-1;
-    padding-left: 350px;
+/* Center the image within the home-img container */
+.home-img img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* buttons for socials */
@@ -96,7 +95,7 @@ h1 {
 }
 
 h2 {
-    font-size: 24pt;
+    font-size: 28pt;
 }
 
 /* Background bubble for subheaders */
