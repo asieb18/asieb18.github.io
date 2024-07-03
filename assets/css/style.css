@@ -8,6 +8,7 @@ body {
     color: #534444;
 }
 
+
 /*Navigation Bar*/
 .navbar {
     font-family: 'Playfair Display';
@@ -48,6 +49,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row; /* Align items horizontally */
+    height: 80vh;
+
 }
 
 /* Style for text section */
