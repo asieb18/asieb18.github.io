@@ -169,6 +169,10 @@ a {
     justify-content: center;
 }
 
+#proj {
+    padding: 22px;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
@@ -218,8 +222,16 @@ figure {
     width: 300px;
     margin: 0;
     display: inline-block;  
+    transition: 400ms;
 }
 
+figure img:hover {
+    opacity: 60%;
+    filter: brightness(50%);
+    FILTER: blur(1px);
+    
+
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
