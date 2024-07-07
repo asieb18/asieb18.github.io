@@ -50,7 +50,7 @@ body {
     justify-content: center;
     flex-direction: row; /* Align items horizontally */
     height: 80vh;
-
+    margin-top: -20px;
 }
 
 /* Style for text section */
@@ -102,8 +102,8 @@ h2 {
 }
 
 /* Background bubble for subheaders */
-h3 span {
-    background-color: #5a4e4e;
+p span {
+    background-color: #534444;
     border-radius: 20px;
     color: #F1EFEF;
     padding: 8px;
@@ -215,7 +215,8 @@ figcaption p {
     width: 100%; 
     background-color: #534444;
     color:#E7DFDF;
-    margin-top: -5px /* Remove gap btwn pic and caption */
+    margin-top: 4px;
+    border-radius: 20px;
 }
 
 figure {
@@ -226,12 +227,21 @@ figure {
 }
 
 figure img:hover {
-    opacity: 60%;
-    filter: brightness(50%);
-    FILTER: blur(1px);
+    opacity: 80%;
+    FILTER: blur(0.5px);
     
 
 }
+
+.container.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -20%;
+}
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
