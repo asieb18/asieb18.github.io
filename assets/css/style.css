@@ -114,6 +114,7 @@ h3 span {
     font-size: smaller;
 }
 
+
 #desc {
     font-size: large;
     margin: 0.1px;
@@ -194,8 +195,30 @@ a {
     flex: 10%;
     max-width: 100%;
     padding: 0 0;
+    display: inline-block;
+
 }
 
+.email {
+    padding-left: 20%;
+    color: #594f4f;
+}
+
+/* Create brown box for project image title */
+figcaption p {
+    padding: 10px 0; 
+    box-sizing: border-box; 
+    width: 100%; 
+    background-color: #534444;
+    color:#E7DFDF;
+    margin-top: -5px /* Remove gap btwn pic and caption */
+}
+
+figure {
+    width: 300px;
+    margin: 0;
+    display: inline-block;  
+}
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
