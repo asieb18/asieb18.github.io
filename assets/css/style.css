@@ -201,9 +201,7 @@ a {
 .proj-column {
     flex: 10%;
     max-width: 100%;
-    padding: 0 0;
     display: inline-block;
-
 }
 
 .email {
@@ -223,7 +221,7 @@ figcaption p {
 }
 
 figure {
-    width: 300px;
+    width: 380px;
     margin: 0;
     display: inline-block;  
     transition: 400ms;
